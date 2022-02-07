@@ -38,6 +38,7 @@ aws s3 sync \
     s3://$BUCKET \
     --profile $PROFILE \
     --region $REGION \
+    --delete \
     --quiet \
     || exit 1
 

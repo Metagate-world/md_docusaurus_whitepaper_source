@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Properties
+# Two NFTs For Each Ticket
 
 ...
