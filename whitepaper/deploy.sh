@@ -16,6 +16,7 @@ echo
 
 SCRIPT=`dirname $0`
 SCRIPT=`realpath $SCRIPT`
+export DOCU_VERSION=`date '+%y%m%d-%H%M'`
 
 cd "$SCRIPT" || exit 1
 source "$1.env"

@@ -37,3 +37,10 @@ html[data-theme="dark"] {
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.docu-version {
+  color: #888888;
+  font-style: italic;
+  font-size: 60%;
+  margin: 0;
+}

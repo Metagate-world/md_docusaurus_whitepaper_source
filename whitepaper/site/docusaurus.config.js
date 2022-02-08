@@ -47,7 +47,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Metagate. All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Metagate. All rights reserved.<br><div class="docu-version">Version: ${process.env.DOCU_VERSION}</div>`,
       },
       prism: {
         theme: lightCodeTheme,

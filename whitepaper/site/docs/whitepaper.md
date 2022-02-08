@@ -10,7 +10,7 @@ We love digital art.
 
 We want to merge beautiful digital art into every day we spend in the metaverse.
 
-Non-Fungible Tokens (NFTs) rapidly gaining ground as a means of making real art accessible to everyone.
+Non-Fungible Tokens (NFTs) rapidly gaining ground as a means of making real and unique art accessible to everyone.
 Metagate opens up an independent metaverse of worlds. Worlds inhabited by beautiful people surrounded by beautiful art.
 
 And we love games. So prepare to be surprised!
