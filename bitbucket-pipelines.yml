@@ -1,0 +1,26 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:16
+
+pipelines:
+  default:
+    - step:
+        name: Deploy to S3
+        image: atlassian/default-image:2
+        deployment: Test
+        script:
+          - export DOCU_VERSION=`date '+%y%m%d-%H%M'`
+          - cd steve-whitepaper
+          - yarn run build
+          - pipe: atlassian/aws-s3-deploy:0.3.7
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              AWS_DEFAULT_REGION: $AWS_REGION
+              S3_BUCKET: $AWS_BUCKET
+              LOCAL_PATH: 'build'
+              DELETE_FLAG: 'true'
+
