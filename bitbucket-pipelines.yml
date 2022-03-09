@@ -6,7 +6,8 @@ pipelines:
         deployment: Test
         script:
           - export DOCU_VERSION=`date '+%y%m%d-%H%M'`
-          - cd steve-whitepaper
+          - cd steve-whitepaper/site
+          - npm install
           - npm run build
           - pipe: atlassian/aws-s3-deploy:0.3.7
             variables:
