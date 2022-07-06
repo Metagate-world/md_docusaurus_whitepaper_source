@@ -7,14 +7,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Metagate',
-  tagline: 'Metagate white paper',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Metagate white-paper',
+  url: 'https://whitepaper.metagate.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'metagate', // Usually your GitHub org/user name.
-  projectName: 'whitepaper', // Usually your repo name.
+  organizationName: 'Metagate-world', // Usually your GitHub org/user name.
+  projectName: 'whitepaper.metagate.dev', // Usually your repo name.
 
   presets: [
     [
