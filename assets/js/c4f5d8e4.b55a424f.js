@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[195],{2841:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var u=n(7294),r=n(6775);function c(){return u.createElement(r.l_,{to:"/docs/whitepaper"})}}}]);
